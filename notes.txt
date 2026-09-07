@@ -1,0 +1,31 @@
+Agentic AI
+
+Agentic AI refers to autonomous software systems powered by large language models that plan, use tools, and execute multi-step workflows with minimal human intervention. According to Daily.dev, "AI agents are intelligent systems capable of autonomously performing tasks such as obtaining information, designing workflows, making decisions, performing actions, and learning."
+
+Autonomy
+
+Operates independently over time to achieve a specific goal rather than just answering a single prompt.
+
+The Agent Loop
+
+Follows a continuous sequence of "plan, act, observe, adapt." (Analytics Vidhya)
+
+Tool Use
+
+Interacts with external software, APIs, databases, and code execution environments.
+
+Reasoning and Planning
+
+Decomposes large goals into smaller, ordered subtasks.
+
+Memory
+
+Utilizes short-term and long-term storage to keep track of prior steps and context.
+
+Feedback and Reflection
+
+Evaluates tool outputs and corrects errors on the fly.
+
+Orchestration
+
+Scales from single-agent setups to multi-agent frameworks where specialized agents collaborate.
