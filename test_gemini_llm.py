@@ -1,7 +1,11 @@
+import os
+
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
 
-client = genai.Client(api_key="AQ.Ab8RN6I2os8DGt617sd_bajGcJvrdPJkCdfYfBFJzXjig0WWCw")
+load_dotenv()
+client = genai.Client(os.environ.get("GEMINI_API_KEY"))
 
 with open("prompt.txt", "r", encoding="utf-8") as f:
     system_prompt = f.read()
